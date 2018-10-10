@@ -1,0 +1,2 @@
+# Additional requirements go here
+transcrypt<3.8

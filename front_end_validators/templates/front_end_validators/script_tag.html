@@ -1,0 +1,3 @@
+{% load staticfiles %}
+<script src="{% static 'js/front_end_validators.js' %}"></script>
+<script type="module">import * as validators from '{% static 'validators.js' %}'; window.validators = validators;</script>

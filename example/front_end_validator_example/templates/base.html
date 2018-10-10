@@ -1,0 +1,17 @@
+{% load front_end_validators staticfiles %}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Front End Validator Example</title>
+  <style>
+td, th { vertical-align: top; padding-bottom: .5rem; }
+th { text-align: right; padding-right: .75rem; }
+.helptext { font-size: .9rem; font-style: italic; }
+  </style>
+</head>
+<body>
+  {% block content %}{% endblock %}
+  {% front_end_validators_js %}
+  {{ form.media.js }}
+</body>
+</html>
