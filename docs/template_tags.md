@@ -1,5 +1,3 @@
-# Template Tags
-
 ## `{% front_end_validators_js %}`
 
 This template tag includes two pieces of JavaScript:

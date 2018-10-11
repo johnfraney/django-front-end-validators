@@ -1,5 +1,3 @@
-# Browser Support
-
 Because this package uses [Transcrypt](http://www.transcrypt.org/) to transpile Python to JavaScript, browser support depends on the version of Transcrypt installed in your project.
 
 Currently this package supports Transcrypt versions 3.6 and 3.7, which transpile Python code into different versions of JavaScript:

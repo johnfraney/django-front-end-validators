@@ -1,5 +1,3 @@
-# Management Commands
-
 ## `transpile_validators`
 
 This management command uses [Transcrypt](http://www.transcrypt.org/) to convert your project's `validators.py` file from Python to JavaScript.
