@@ -5,7 +5,10 @@ for (fieldToValidate of fieldsToValidate) {
     for (validatorFunction of fieldValidators) {
       try {
         validatorFunction(this.value)
-        this.setCustomValidity('')
+        var fieldIsValid = this.checkValidity()
+        if (fieldIsValid) {
+          this.setCustomValidity('')
+        }
       }
       catch(e) {
         this.setCustomValidity(e.message)
