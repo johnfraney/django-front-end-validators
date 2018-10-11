@@ -59,3 +59,7 @@ output/*/index.html
 # Docs
 docs/_build
 site/
+
+# Example site
+/example/front_end_validator_example/__javascript__
+/example/front_end_validator_example/__target__
