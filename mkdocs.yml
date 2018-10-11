@@ -2,6 +2,14 @@ site_name: 'Django Front End Validators'
 repo_name: 'johnfraney/django-front-end-validators'
 repo_url: 'https://github.com/johnfraney/django-front-end-validators'
 
+nav:
+  - Home: index.md
+  - Browser Support: browser_support.md
+  - Forms: forms.md
+  - Template Tags: template_tags.md
+  - Management Commands: management_commands.md
+  - Example Project: example_project.md
+
 dev_addr: '127.0.0.1:8008'
 
 # Copyright
@@ -16,11 +24,12 @@ extra:
 theme:
   name: 'material'
   logo:
-    icon: 'code'
+    icon: 'check'
   palette:
     primary: 'green'
     accent: 'light green'
 
 # Extensions
 markdown_extensions:
+  - admonition
   - codehilite

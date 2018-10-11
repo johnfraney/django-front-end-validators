@@ -16,13 +16,6 @@ Use model field validator functions for front end JS validation
 Documentation is available in the [docs directory](./docs/index.md) and at https://johnfraney.github.io/django-front-end-validators.
 
 
-## Restrictions
-
-This package uses Transcrypt 3.7 to transpile Python validator functions into a newer version of JavaScript (ES6/ES2015) that not all browsers understand.
-
-See here for browser compatibility: https://caniuse.com/#feat=es6-module
-
-
 ## Credits
 
 Tools used in rendering this package:

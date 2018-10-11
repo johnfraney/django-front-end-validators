@@ -123,7 +123,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    'front_end_validator_example/__target__',
+    # 'front_end_validator_example/__target__',
+    'front_end_validator_example/__javascript__',
 ]
 
 # Front End Validators settings

@@ -10,7 +10,7 @@ def validate_all_caps(value):
 
 
 def validate_four_digits(value):
-    if len(value) is not 4:
+    if len(str(value)) is not 4:
         raise ValidationError(
             "Value must be four digits"
         )
