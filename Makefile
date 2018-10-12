@@ -51,6 +51,11 @@ release: clean ## package and upload a release
 	python setup.py bdist_wheel
 	twine upload dist/*
 
+release-test: clean ## package and upload a release
+	python setup.py sdist
+	python setup.py bdist_wheel
+	twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
 sdist: clean ## package
 	python setup.py sdist
 	ls -l dist
