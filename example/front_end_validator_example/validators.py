@@ -5,7 +5,8 @@ from datetime import datetime
 def validate_all_caps(value):
     if value != value.upper():
         raise ValidationError(
-            "Value must be all caps"
+            '%(value)s must be all caps',
+            params={'value': value},
         )
 
 
@@ -20,7 +21,8 @@ def validate_future_year(value):
     current_year = datetime.now().year
     if value <= current_year:
         raise ValidationError(
-            "{value} is not a future year".format(value=value),
+            '%(value)s is not a future year',
+            params={'value': value},
         )
 
 
