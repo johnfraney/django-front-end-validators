@@ -8,7 +8,7 @@
 ](https://pypi.org/project/django-front-end-validators/)
 [![TravisCI](https://travis-ci.org/johnfraney/django-front-end-validators.svg?branch=master)](https://travis-ci.org/johnfraney/django-front-end-validators)
 
-Use model field validator functions for front end JS validation
+Django Front End Validators allows you to reuse server-side [model field validators](https://docs.djangoproject.com/en/dev/ref/validators/) to perform front end form validation in JavaScript.
 
 
 ## Documentation

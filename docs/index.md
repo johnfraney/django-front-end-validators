@@ -2,6 +2,8 @@
 
 Django Front End Validators allows you to reuse server-side [model field validators](https://docs.djangoproject.com/en/dev/ref/validators/) to perform front end form validation in JavaScript.
 
+For more information, see [How It Works](how_it_works.md).
+
 ## Quickstart
 
 #### Install Django Front End Validators

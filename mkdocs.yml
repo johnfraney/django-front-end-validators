@@ -5,6 +5,7 @@ repo_url: 'https://github.com/johnfraney/django-front-end-validators'
 nav:
   - Home: index.md
   - How It Works: how_it_works.md
+  - Limitations: limitations.md
   - Browser Support: browser_support.md
   - Forms: forms.md
   - Template Tags: template_tags.md
