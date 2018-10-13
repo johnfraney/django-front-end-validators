@@ -46,6 +46,9 @@ docs: ## generate documentation
 	mkdocs build --clean
 	$(BROWSER) site/index.html
 
+docs-deploy: ## deploy documentation to GitHub pages
+	mkdocs gh-deploy
+
 release: clean ## package and upload a release
 	python setup.py sdist
 	python setup.py bdist_wheel
