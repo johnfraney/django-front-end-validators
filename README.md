@@ -16,6 +16,11 @@ Django Front End Validators allows you to reuse server-side [model field validat
 Documentation is available in the [docs directory](./docs/index.md) and at https://johnfraney.github.io/django-front-end-validators.
 
 
+## Supported Python versions
+
+Currently support is planned for only Python 3.6 and 3.7, on which Transcrypt 3.6 and 3.7 depend.
+
+
 ## Credits
 
 Tools used in rendering this package:

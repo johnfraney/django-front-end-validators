@@ -58,6 +58,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
+        'transcrypt>=3.6'
     ],
     license="MIT",
     zip_safe=False,
