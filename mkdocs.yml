@@ -35,3 +35,8 @@ theme:
 markdown_extensions:
   - admonition
   - codehilite
+
+# Google Analytics
+google_analytics:
+  - 'UA-125394319-2'
+  - 'auto'
