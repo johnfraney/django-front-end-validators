@@ -1,3 +1,4 @@
+import inspect
 import os
 import subprocess
 from django.core.exceptions import ImproperlyConfigured
@@ -28,5 +29,10 @@ class Command(BaseCommand):
                 validators_file
             ))
 
-        subprocess.run(['transcrypt', '-b', '-m', validators_file])
+        try:
+            subprocess.run(['transcrypt', '-b', '-m', validators_file], check=True)
+        except subprocess.CalledProcessError:
+            raise CommandError(
+                'Transcrypt could not transpile your validators. See above for details.'
+            )
         self.stdout.write(self.style.SUCCESS('Successfully transpiled validators'))
